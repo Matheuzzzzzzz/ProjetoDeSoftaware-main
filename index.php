@@ -93,13 +93,14 @@
             <img src="https://www.seuevento.net.br/uploads/cliente/img_937112_20180627.jpg" alt="" width="500px" height="400px">
             <img src="https://cdn.alboompro.com/5f3c1f8725241f00012b0323_612bb08400ec9a000153763a/large/casamentodeluxo-dicasdecasamento-festadecasamento-decoracaodecasamento-9.jpg?v=1" alt="" width="500px" height="400px">
         </div>
-        <div>
+         <div class="div-block">
             <h4>EMPRESA</h4>
         </div>
-        <a href="">
+        <a href="" id="link-weare">
             <i>Quem Somos</i>
-            <p>Existem eventos que são verdadeiramente especiais, e alguns lugares que se destacam pela sua singularidade. É o caso do Planeta Festival, um local encantador que cativa todos os que o visitam. Com um ambiente naturalmente rústico e sofisticado ao mesmo tempo, este espaço é capaz de proporcionar experiências únicas e inesquecíveis aos seus visitantes.</p>
         </a>
+        <p>Existem eventos que são verdadeiramente especiais, e alguns lugares que se destacam pela sua singularidade. É o caso do Planeta Festival, um local encantador que cativa todos os que o visitam. Com um ambiente naturalmente rústico e sofisticado ao mesmo tempo, este espaço é capaz de proporcionar experiências únicas e inesquecíveis aos seus visitantes.</p>
+
 
 
     </section>
