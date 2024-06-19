@@ -369,3 +369,18 @@ flex-wrap: wrap;
 .sect p{
     font-size: 2.0em;
 }
+#link-weare{
+
+
+}
+.div-block{
+
+width: 100%;
+height: 200px;
+background-color: white;   
+color: black; 
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
