@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -16,7 +16,6 @@
     }
 </style>
 <body>
-<div class="main"></div>
     <?php
 
     $hostname = "localhost";
@@ -40,7 +39,7 @@
     <div class="container">
         <div class="border p-3">
             <h1 class="text-center">Cadastro Cliente</h1>
-            <a href="../php/cadaastrocliente.php" class="btn btn-success">Ínicio</a>
+            <a href="cadastrocliente.php" class="btn btn-success">Ínicio</a>
             <?php
             foreach ($resultado as $linha) :
 
