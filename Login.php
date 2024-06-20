@@ -60,7 +60,6 @@ if (isset($_POST['email']) || isset($_POST['senha'])) {
   padding: 20px;  
 }
 
-
 H1 {
   text-align: center;  
   font-size: 2em;  
