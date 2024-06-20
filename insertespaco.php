@@ -11,6 +11,7 @@
     <title>Planeta Festival-inserir</title>
 </head>
 <body>
+<div class="main"></div>
     
     <?php
     //dados de conexão

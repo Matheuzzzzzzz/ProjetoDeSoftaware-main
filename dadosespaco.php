@@ -15,6 +15,7 @@
     }
 </style>
 <body>
+<div class="main"></div>
     <?php
 
     $hostname = "localhost";

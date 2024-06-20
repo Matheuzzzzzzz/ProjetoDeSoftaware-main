@@ -10,6 +10,7 @@
 </head>
 
 <body>
+<div class="main"></div>
     <div class="container">
         <div class="border p-3">
             <?php

@@ -53,6 +53,7 @@
 
     </nav>
 </header>
+<div class="main"></div>
 <div id="meio">
     <div id="caixacentral">
         <div id="CadastroCliente"> Atualizar dados</div>

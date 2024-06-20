@@ -142,6 +142,7 @@
         </form>
 
   </div>
+  <div class="main"></div>
   </form>
 <?php endforeach; ?>
 <?php elseif (isset($resultadoUpdate)) : ?>

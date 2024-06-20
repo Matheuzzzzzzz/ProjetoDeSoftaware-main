@@ -12,6 +12,7 @@
 </head>
 
 <body>
+<div class="main"></div>
   <header>
     <nav>
       <ul class="listnav">
