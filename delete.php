@@ -10,7 +10,6 @@
     <title>Planeta Festival</title>
 </head>
 <body>
-<div class="main"></div>
 <div class="container">
 <div class="border p-3">
 <?php
@@ -66,7 +65,7 @@ Dado deletado com sucesso!
 
 dados</a>
 
-<a href="../php/cadaastrocliente.php" class="btn
+<a href="cadastrocliente.php" class="btn
 
 btn-primary">Início</a>
 </div>
@@ -94,11 +93,11 @@ $r['id'] ?>">
 
 name="submit" value="Deletar">
 
-<a href="../php/dados.php" class="btn btn-primary">Ver
+<a href="dados.php" class="btn btn-primary">Ver
 
 dados</a>
 
-<a href="../php/cadaastrocliente.php" class="btn
+<a href="cadastrocliente.php" class="btn
 btn-primary">Início</a>
 </form>
 <?php endforeach; ?>
