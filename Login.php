@@ -26,7 +26,7 @@ if (isset($_POST['email']) || isset($_POST['senha'])) {
 
 
         $sql_code = "SELECT * FROM cadastro WHERE email = '$email' AND senha = '$senha'";
-        $sql_query = $mysqli->query($sql_code) or die("Falha na execução do código SQL: " . $mysqli->error);
+        $sql_query = $mysqli->query($sql_code);
         $quantidade = $sql_query->num_rows;
         if ($quantidade == 1) {
             $usuario = $sql_query->fetch_assoc();
