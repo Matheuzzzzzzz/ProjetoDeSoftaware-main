@@ -15,6 +15,7 @@ $id = $_SESSION['id'];
 $sql = "SELECT * FROM cadastro WHERE id = $id";
 $resultadoSelect = $mysqli->query($sql);
 $user = $resultadoSelect->fetch_assoc();
+
 ?>
 
 <!DOCTYPE html>
@@ -88,7 +89,6 @@ $user = $resultadoSelect->fetch_assoc();
 
   </section>
   <?php
-
   ?>
 </body>
 
