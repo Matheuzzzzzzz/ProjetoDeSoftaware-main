@@ -36,9 +36,10 @@ if (isset($_POST['email']) || isset($_POST['senha'])) {
                 session_start();
             }
             $_SESSION['id'] = $usuario['id'];
+            
 
 
-            header("Location: index.php");
+            header("Location: usuario.php");
         } else {
             echo "Falha ao logar! E-mail ou senha incorretos";
         }
