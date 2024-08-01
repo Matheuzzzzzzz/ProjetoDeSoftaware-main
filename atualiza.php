@@ -39,10 +39,10 @@
       </li>
 
       <li>
-        <div class="search-container">
-          <input type="text" id="search-input" class="search-input" placeholder="Digite sua pesquisa...">
-          <button class="search-button" onclick="search()">Pesquisar</button>
-        </div>
+      <form class="search-container" action="busca.php" method="get">
+            <input type="text" name="busca" id="search-input" class="search-input" placeholder="Digite sua pesquisa...">
+            <button type="submit">Pesquisar</button>
+          </form>
       </li>
       <li>
         <a href="Login.php"><svg id="svg02" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
