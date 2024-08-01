@@ -35,10 +35,10 @@
                 </li>
 
                 <li>
-                    <div class="search-container">
-                        <input type="text" id="search-input" class="search-input" placeholder="Digite sua pesquisa...">
-                        <button class="search-button" onclick="search()">Pesquisar</button>
-                    </div>
+                <form class="search-container" action="busca.php" method="get">
+            <input type="text" name="busca" id="search-input" class="search-input" placeholder="Digite sua pesquisa...">
+            <button type="submit">Pesquisar</button>
+          </form>
                 </li>
                 <li>
                     <a href="Login.php"><svg id="svg02" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
@@ -64,11 +64,11 @@
                     <div class="input">
                         <label for="tipo" class="form-label">Tipo:</label>
                         <select name="tipo">
-                            <option value="tipo">Casa</option>
-                            <option value="tipo">Sitío</option>
-                            <option value="tipo">Espaço de Eventos</option>
-                            <option value="tipo">Casa de Show</option>
-                            <option value="tipo">Salão de Festa</option>
+                            <option value="Casa">Casa</option>
+                            <option value="Sitio">Sitío</option>
+                            <option value="Espaço de Eventos">Espaço de Eventos</option>
+                            <option value="Casa de Show">Casa de Show</option>
+                            <option value="Salão de Festa">Salão de Festa</option>
                         </select>
                     </div>
                     <div class="input">
