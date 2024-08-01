@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main2.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -39,10 +39,10 @@
             </li>
 
             <li>
-                <div class="search-container">
-                    <input type="text" id="search-input" class="search-input" placeholder="Digite sua pesquisa...">
-                    <button class="search-button" onclick="search()">Pesquisar</button>
-                </div>
+            <form class="search-container" action="busca.php" method="get">
+            <input type="text" name="busca" id="search-input" class="search-input" placeholder="Digite sua pesquisa...">
+            <button type="submit">Pesquisar</button>
+          </form>
             </li>
             <li>
                 <a href="Login.php"><svg id="svg02" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
@@ -163,7 +163,7 @@
         <a href="cadastroespaco.php" class="btn btn-danger" class="atualiza">voltar</a>
 <?php endif;
         endif; ?>
-    <script src="../TrabalhoProjetoDeSoftaware-main-2/ProjetoSoftware/js/script.js"></script>
+<script src="../TrabalhoProjetoDeSoftaware-main-2/ProjetoSoftware/js/script.js"></script>
 
 </body>
 
