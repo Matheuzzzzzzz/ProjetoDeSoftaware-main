@@ -10,10 +10,7 @@
     h5{
       color: white !important;
     }
-    p{
-      margin-top: 100px;
-      color: white;
-    }
+   
   </style>
 </head>
 
@@ -94,12 +91,12 @@
   if ($resultado->num_rows > 0) {
     while ($produto = $resultado->fetch_assoc()) {
   ?>
-      <div class="card mx-1" style="width: fit-content;">
+      <div class="card m-3" style="width: fit-content;">
        <picture>
           <img src="<?php echo $produto['imagem'] ?>" class="card-img-top" alt="produto">
         </picture>
 
-        <div class="card-body" >
+        <div class="card-body">
           <h5 class="card-title"><?= $produto['nomeespaco'] ?></h5>
           <p class="card-text"><?= $produto['descricao'] ?></p>
           <a href="exibir.php?id=<?= $produto['id'] ?>" class="btn btn-primary">Ver Espaço</a>

@@ -81,7 +81,7 @@
         } else if (isset($_POST['submit'])) {
             $id = $_POST['id'];
             $nomeespaco = $_POST['nomeespaco'];
-            $nomeespaco = $_POST['nomelocal'];
+            $nomelocal = $_POST['nomelocal'];
             $tipo = $_POST['tipo'];
             $descricao = $_POST['descricao'];
             $rua = $_POST['rua'];
