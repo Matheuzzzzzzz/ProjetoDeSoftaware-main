@@ -37,9 +37,11 @@
     $numero = $_POST['numero'];
     $bairro = $_POST['bairro'];
     $cidade = $_POST['cidade'];
+    $imagem = $_POST['imagem'];
 
 
-    if (empty($nomeespaco) || empty($nomelocal) || empty($tipo) || empty($descricao) || empty($rua) || empty($numero) || empty($bairro) || empty($cidade)):
+
+    if (empty($imagem) || empty($nomeespaco) || empty($nomelocal) || empty($tipo) || empty($descricao) || empty($rua) || empty($numero) || empty($bairro) || empty($cidade)):
 
     ?>
 
@@ -53,7 +55,7 @@
 
 
     //criar comando
-    $sql = "INSERT INTO cadastroespaco VALUES(NULL, '$nomeespaco', '$nomelocal','$tipo','$descricao','$rua','$numero','$bairro','$cidade')";
+    $sql = "INSERT INTO cadastroespaco VALUES(NULL, '$nomeespaco', '$nomelocal','$tipo','$descricao','$rua','$numero','$bairro','$cidade','$imagem')";
     //executar comando
     $resultado = $conn->query($sql);
     if ($resultado != 0) :

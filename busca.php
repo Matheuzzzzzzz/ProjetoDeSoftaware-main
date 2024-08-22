@@ -95,9 +95,9 @@
     while ($produto = $resultado->fetch_assoc()) {
   ?>
       <div class="card mx-1" style="width: fit-content;">
-       <!-- <picture>
-          <img src="<?php //echo $produto['link-img'] ?>" class="card-img-top" alt="produto">
-        </picture>-->
+       <picture>
+          <img src="<?php echo $produto['imagem'] ?>" class="card-img-top" alt="produto">
+        </picture>
 
         <div class="card-body" >
           <h5 class="card-title"><?= $produto['nomeespaco'] ?></h5>

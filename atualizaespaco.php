@@ -88,7 +88,8 @@
             $numero = $_POST['numero'];
             $bairro = $_POST['bairro'];
             $cidade = $_POST['cidade'];
-            $sql = "UPDATE cadastroespaco SET nomeespaco = '{$nomeespaco}', nomelocal = '{$nomelocal}', tipo = '{$tipo}', descricao = '{$descricao}', rua = '{$rua}', numero = '{$numero}', bairro = '{$bairro}', cidade = '{$cidade}' WHERE id = '{$id}'";
+            $imagem = $_POST['imagem'];
+            $sql = "UPDATE cadastroespaco SET nomeespaco = '{$nomeespaco}', nomelocal = '{$nomelocal}', tipo = '{$tipo}', descricao = '{$descricao}', rua = '{$rua}', numero = '{$numero}', bairro = '{$bairro}', cidade = '{$cidade}', imagem = '{$imagem}' WHERE id = '{$id}'";
             //$sql = "UPDATE `aluno` SET `nome`='{$nome}',`email`='{$email}' WHERE `id` = '$id'";
             $resultadoUpdate = $conn->query($sql);
         }
@@ -124,6 +125,10 @@
                             <label for="descricao" class="form-label">Descrição do Local:</label>
                             <input type="text" class="form-control" id="descricao" name="descricao" placeholder="Escolha o tipo do local" value="<?= $r['descricao'] ?>">
                         </div>
+                    </div>
+                    <div class="input">
+                        <label for="imagem" class="form-label">Link da Imagem:</label>
+                        <input type="text" class="form-control" id="imagem" name="imagem" placeholder="coloque o link da imagem" value="<?= $r['imagem']?>">
                     </div>
                     <div class="form-container">
                         <div class="input">

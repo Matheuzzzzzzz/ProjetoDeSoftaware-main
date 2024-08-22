@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -79,6 +80,7 @@ btn-primary">Início</a>
                     <p>Numero: <?= $r['numero'] ?></p>
                     <p>Bairro: <?= $r['bairro'] ?></p>
                     <p>Cidade: <?= $r['cidade'] ?></p>
+                    <p>Imagem: <?= $r['imagem'] ?></p>
                     <form action="<?= $_SERVER['PHP_SELF'] ?>" method="post">
 
                         <input type="hidden" name="id" value="<?=

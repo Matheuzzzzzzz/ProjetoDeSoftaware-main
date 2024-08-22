@@ -75,6 +75,10 @@
                         <label for="descricao" class="form-label">Descrição do Local:</label>
                         <input type="text" class="form-control" id="descricao" name="descricao" placeholder="Escolha o tipo do local" required>
                     </div>
+                    <div class="input">
+                        <label for="imagem" class="form-label">Link da Imagem:</label>
+                        <input type="text" class="form-control" id="imagem" name="imagem" placeholder="coloque o link da imagem" required>
+                    </div>
                     <div class="form-container">
                         <div class="input">
                             <label for="rua" class="form-label">Rua:</label>

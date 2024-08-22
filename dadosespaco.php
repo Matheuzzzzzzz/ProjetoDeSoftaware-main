@@ -55,6 +55,7 @@
                             <th scope="col">numero</th>
                             <th scope="col">bairro</th>
                             <th scope="col">cidade</th>
+                            <th scope="col">link-imagem</th>
                             <th scope="col" class="text-center" colspan="2">Ações</th>
                         </tr>
                     </thead>
@@ -70,6 +71,7 @@
                             <td><?= $linha['numero'] ?></td>
                             <td><?= $linha['bairro'] ?></td>
                             <td><?= $linha['cidade'] ?></td>
+                            <td><?= $linha['imagem'] ?></td>
                             <td><a href="atualizaespaco.php?id=<?= $linha['id']?>" class="btn btn-warning padding">Atualizar<i class="bi bi-pencil-square"></i></a></td>
                             <td><a href="deleteespaco.php?id=<?= $linha['id']?>" class="btn btn-danger">Deletar<i class="bi bi-trash"></i></a></td>
                         </tr>
