@@ -20,5 +20,6 @@ descricao varchar(200) not null,
 rua varchar(100) not null,
 numero int not null,
 bairro varchar(100) not null,
-cidade varchar(100) not null
+cidade varchar(100) not null,
+imagem blob not null
 )engine=InnoDB;
