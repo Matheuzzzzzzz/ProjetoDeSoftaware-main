@@ -10,7 +10,12 @@
     h5{
       color: white !important;
     }
-   
+   main{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    
+   }
   </style>
 </head>
 
@@ -91,6 +96,7 @@
   if ($resultado->num_rows > 0) {
     while ($produto = $resultado->fetch_assoc()) {
   ?>
+  <main>
       <div class="card m-3" style="width: fit-content;">
        <picture>
           <img src="<?php echo $produto['imagem'] ?>" class="card-img-top" alt="produto">
@@ -102,6 +108,7 @@
           <a href="exibir.php?id=<?= $produto['id'] ?>" class="btn btn-primary">Ver Espaço</a>
         </div>
       </div>
+    </main>
   <?php
 
     }
