@@ -76,7 +76,7 @@ $resultado = $conn->query($sql);
 if ($resultado->num_rows > 0) {
   while ($produto = $resultado->fetch_assoc()) {
 ?>
-<main>
+<form method="post" action="payment.php">
     <div class="card m-3" style="width: fit-content;">
      <picture>
         <img src="<?php echo $produto['imagem'] ?>" class="card-img-top" alt="produto">
@@ -88,7 +88,7 @@ if ($resultado->num_rows > 0) {
         <button id="btnconfig" type="submit" class="btn btn-primary">Alugar</button>
       </div>
     </div>
-  </main>
+  </form>
 <?php
 
   }
