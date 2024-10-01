@@ -23,10 +23,10 @@
               </svg>
             </a>
             <ul class="droplist">
-              <li><a href="">Produtos Festivos</a></li>
+
               <li><a href="cadastroespaco.php">Espaços Festivos</a></li>
               <li><a href="cadastrocliente.php">Cadastro Cliente</a></li>
-              <li><a href="">Cadastro de Lojas/Vendas</a></li>
+              <li><a href="usuario.php">Pagina de Usuário</a></li>
             </ul>
           </div>
         </li>
