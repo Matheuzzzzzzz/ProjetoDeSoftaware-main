@@ -1,0 +1,400 @@
+body{
+    background-color: #000;
+}
+
+.main {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 1px;
+    width: 1px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: -42vw -4vh 0px 0px #fff,25vw -41vh 0px 0px #fff,-20vw 49vh 0px 1px #fff,5vw 40vh 1px 1px #fff,29vw 19vh 1px 0px #fff,-44vw -13vh 0px 0px #fff,46vw 41vh 0px 1px #fff,-3vw -45vh 0px 1px #fff,47vw 35vh 1px 0px #fff,12vw -8vh 1px 0px #fff,-34vw 48vh 1px 1px #fff,32vw 26vh 1px 1px #fff,32vw -41vh 1px 1px #fff,0vw 37vh 1px 1px #fff,34vw -26vh 1px 0px #fff,-14vw -49vh 1px 0px #fff,-12vw 45vh 0px 1px #fff,-44vw -33vh 0px 1px #fff,-13vw 41vh 0px 0px #fff,-36vw -11vh 0px 1px #fff,-23vw -24vh 1px 0px #fff,-38vw -27vh 0px 1px #fff,16vw -19vh 0px 0px #fff,28vw 33vh 1px 0px #fff,-49vw -4vh 0px 0px #fff,16vw 32vh 0px 1px #fff,36vw -18vh 1px 0px #fff,-25vw -30vh 1px 0px #fff,-23vw 24vh 0px 1px #fff,-2vw -35vh 1px 1px #fff,-25vw 9vh 0px 0px #fff,-15vw -34vh 0px 0px #fff,-8vw -19vh 1px 0px #fff,-20vw -20vh 1px 1px #fff,42vw 50vh 0px 1px #fff,-32vw 10vh 1px 0px #fff,-23vw -17vh 0px 0px #fff,44vw 15vh 1px 0px #fff,-40vw 33vh 1px 1px #fff,-43vw 8vh 0px 0px #fff,-48vw -15vh 1px 1px #fff,-24vw 17vh 0px 0px #fff,-31vw 50vh 1px 0px #fff,36vw -38vh 0px 1px #fff,-7vw 48vh 0px 0px #fff,15vw -32vh 0px 0px #fff,29vw -41vh 0px 0px #fff,2vw 37vh 1px 0px #fff,7vw -40vh 1px 1px #fff,15vw 18vh 0px 0px #fff,25vw -13vh 1px 1px #fff,-46vw -12vh 1px 1px #fff,-18vw 22vh 0px 0px #fff,23vw -9vh 1px 0px #fff,50vw 12vh 0px 1px #fff,45vw 2vh 0px 0px #fff,14vw -48vh 1px 0px #fff,23vw 43vh 0px 1px #fff,-40vw 16vh 1px 1px #fff,20vw -31vh 0px 1px #fff,-17vw 44vh 1px 1px #fff,18vw -45vh 0px 0px #fff,33vw -6vh 0px 0px #fff,0vw 7vh 0px 1px #fff,-10vw -18vh 0px 1px #fff,-19vw 5vh 1px 0px #fff,1vw 42vh 0px 0px #fff,22vw 48vh 0px 1px #fff,39vw -8vh 1px 1px #fff,-6vw -42vh 1px 0px #fff,-47vw 34vh 0px 0px #fff,-46vw 19vh 0px 1px #fff,-12vw -32vh 0px 0px #fff,-45vw -38vh 0px 1px #fff,-28vw 18vh 1px 0px #fff,-38vw -46vh 1px 1px #fff,49vw -6vh 1px 1px #fff,-28vw 18vh 1px 1px #fff,10vw -24vh 0px 1px #fff,-5vw -11vh 1px 1px #fff,33vw -8vh 1px 0px #fff,-16vw 17vh 0px 0px #fff,18vw 27vh 0px 1px #fff,-8vw -10vh 1px 1px #fff;
+  
+  /* stars were too big with the layers above but left the code in case no one cares  -- as in, if noone's just that  one other loner who actually cares    */
+  
+  box-shadow: 24vw 9vh 1px 0px #fff,12vw -24vh 0px 1px #fff,-45vw -22vh 0px 0px #fff,-37vw -40vh 0px 1px #fff,29vw 19vh 0px 1px #fff,4vw -8vh 0px 1px #fff,-5vw 21vh 1px 1px #fff,-27vw 26vh 1px 1px #fff,-47vw -3vh 1px 1px #fff,-28vw -30vh 0px 1px #fff,-43vw -27vh 0px 1px #fff,4vw 22vh 1px 1px #fff,36vw 23vh 0px 0px #fff,-21vw 24vh 1px 1px #fff,-16vw 2vh 1px 0px #fff,-16vw -6vh 0px 0px #fff,5vw 26vh 0px 0px #fff,-34vw 41vh 0px 0px #fff,1vw 42vh 1px 1px #fff,11vw -13vh 1px 1px #fff,48vw -8vh 1px 0px #fff,22vw -15vh 0px 0px #fff,45vw 49vh 0px 0px #fff,43vw -27vh 1px 1px #fff,20vw -2vh 0px 0px #fff,8vw 22vh 0px 1px #fff,39vw 48vh 1px 1px #fff,-21vw -11vh 0px 1px #fff,-40vw 45vh 0px 1px #fff,11vw -30vh 1px 0px #fff,26vw 30vh 1px 0px #fff,45vw -29vh 0px 1px #fff,-2vw 18vh 0px 0px #fff,-29vw -45vh 1px 0px #fff,-7vw -27vh 1px 1px #fff,42vw 24vh 0px 0px #fff,45vw -48vh 1px 0px #fff,-36vw -18vh 0px 0px #fff,-44vw 13vh 0px 1px #fff,36vw 16vh 0px 1px #fff,40vw 24vh 0px 0px #fff,18vw 11vh 0px 0px #fff,-15vw -23vh 1px 0px #fff,-24vw 48vh 0px 1px #fff,27vw -45vh 1px 0px #fff,-2vw -24vh 0px 1px #fff,-15vw -28vh 0px 0px #fff,-43vw 13vh 1px 0px #fff,7vw 27vh 1px 0px #fff,47vw 5vh 0px 0px #fff,-45vw 15vh 1px 1px #fff,-5vw -28vh 0px 1px #fff,38vw 25vh 1px 1px #fff,-39vw -1vh 1px 0px #fff,5vw 0vh 1px 0px #fff,49vw 13vh 0px 0px #fff,48vw 10vh 0px 1px #fff,19vw -28vh 0px 0px #fff,4vw 7vh 0px 0px #fff,21vw 21vh 1px 1px #fff,-15vw -15vh 0px 1px #fff,-6vw -42vh 1px 0px #fff,-15vw 48vh 1px 1px #fff,-23vw 25vh 1px 1px #fff,-48vw 25vh 0px 1px #fff,-31vw -19vh 0px 1px #fff,4vw 37vh 1px 1px #fff,-43vw 28vh 0px 0px #fff,3vw -25vh 0px 1px #fff,-39vw 14vh 0px 1px #fff,-40vw 31vh 0px 1px #fff,35vw -36vh 1px 1px #fff,16vw 49vh 0px 0px #fff,6vw 39vh 0px 0px #fff,3vw -35vh 0px 1px #fff,-44vw -2vh 1px 0px #fff,-6vw 21vh 1px 0px #fff,48vw 9vh 1px 1px #fff,-43vw 30vh 1px 1px #fff,29vw -12vh 1px 1px #fff,-48vw 13vh 1px 0px #fff,-42vw 32vh 1px 1px #fff,34vw 15vh 1px 1px #fff,29vw -37vh 1px 1px #fff,28vw 2vh 0px 0px #fff;
+  animation: zoom 16s alternate infinite; 
+}
+
+@keyframes zoom {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.5);
+    }
+}
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+  font-family:'Jeju Gothic',sans-serif ;
+}
+a{
+    text-decoration: none;
+}
+
+header h1 a{
+    color: white;
+}
+header{
+    background-color: #021352;
+    width: 100%;
+    height: 100px;
+    color: white;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.listnav{
+    padding-top: 40px;
+    display: flex;
+    list-style: none;
+    align-content: space-around;
+}
+.listnav h1:hover{
+    transform: scale(1.1);
+    transition: 1.3s;
+    color: #007BFF;
+}
+header svg:hover{
+    transition: 1.2s;
+    transform: scale(1.2);
+   filter: contrast(50%);
+}
+header #svg02{
+    width: 20px;
+    height: 20px;
+    fill:  white;
+}
+
+header #svg01{
+ width: 50px;
+ height: 50px;    
+ fill: white;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-input {
+    border: none;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+    border-radius: 25px 0 0 25px;
+    width: 300px;
+}
+
+.search-button {
+    border: none;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0 25px 25px 0;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+#dropdown{
+    position: relative;
+    display: inline-block;
+    
+}
+.droplist a{
+    color: #2911A5;
+}
+.droplist{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .droplist{
+display: block;
+}
+
+#slg{
+    display: flex;
+    height: 600px;
+}
+#slg h2{
+    position: absolute;
+    left: 10%;
+    font-size: 2.5em;
+
+
+}
+#slg h2:hover{
+    transform: scale(1.2);
+    transition: 2s;
+}
+
+.divleft{
+
+ opacity: 93%;
+
+ color: white;
+}
+.divleft h2{
+    padding: 40px;
+    font-weight: bold;
+}
+
+
+#btn1{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    position: relative;
+    left: 104px;
+    text-align: center;
+    top: 75%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    color: black;
+    font-weight: bold;
+    transition: 1.5s;
+}
+button:hover{
+
+    transform: scale(1.2);
+    color: black;
+    transition: 1.2;
+
+}
+#btn2{
+    width: 200px;
+    height: 50px;
+    background-color: #2911A5;
+    border: none;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    right: 100px;
+    text-align: center;
+    top: 85%;
+    text-align: center;
+    transition: 1.5s;
+
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.listmain{
+    position: absolute;
+    top: 40%;
+    font-size: 1.3em;
+    list-style: none;
+}
+main h2 p{
+    color: #2911A5;
+   
+}
+.listmain svg{
+    width: 30px;
+    height: 30px;
+    fill: #021352;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50px;
+}
+.sect{
+    padding-top: 400px;    
+    color: white;
+    text-align: center;
+}
+hr{
+    width: 210px;
+    position: relative;
+    left: 43%;
+    right: 50%;
+  color: white;
+
+}
+.globe{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 30%;
+    border-radius: 50%;
+    background-image: url(https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/01-moonfault-pia14011_orig.jpg?w=1600&h=900);
+    background-size: cover;
+    box-shadow: -25px -25px 25px black inset,10px 10px 30px white inset,0px 0px 20px ;
+    animation: rotate 35s linear infinite;
+}
+.globe:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+@keyframes rotate{
+    to{background-position: 100%;}
+}
+.listmain li:hover{
+transform: scale(1.1);
+color: #2911A5;
+transition: 1.5s;
+}
+.listmain svg:hover{
+    fill: #2911A5;
+}
+.droplist a:hover{
+    transform: scale(1.5);
+    color: #021352;
+    transition: 1.3s;
+}
+.droplist li:hover{
+    list-style: none;
+    background-color: grey;
+    transition: 1.3s;
+}
+.pe{
+    background-color: black;
+    width: 100%;
+    height: 73vh;
+} 
+#ulfooter{
+   
+    display: flex;
+
+}
+#ulfooter li{
+    list-style: none;
+    color: white;
+}
+.listbelow{
+    display: flex;
+    flex-direction: column;
+    
+}
+#astronalta{
+    width: 100px;
+    height: 100px;
+    fill: white;
+    background-color: black;
+border-radius: 50%;
+border: 1px solid blue;
+margin-top: -40px;
+}
+main h2{
+    margin-top: 50px ;
+}
+main ul{
+    margin-top: 100px;
+}
+main button{
+    margin-top: 150px;
+}
+.globe{
+    margin-top: 100px;
+}
+#ulfooter li{
+    opacity: 60%;
+    padding: 5px;
+    text-align: center;
+}
+#ulfooter{
+    margin-top: 100px;
+}
+.promo{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    padding: 30px;
+    color: white;
+    text-align: start;
+}
+.promo img{
+
+width: 150px;
+height: 150px;
+background-color: black;
+border-radius: 50%;
+border: 1px solid blue;
+}
+.promo h3:hover{
+    transform: scale(1.2);
+    transition: 1.2s;
+    color: #1f3ead;
+}
+.promo div:hover{
+    transform: scale(1.2);
+    transition: 1.2s;
+}
+.promo a{
+    color: blue;
+}
+.promo div{
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+.promo h3{
+    font-size: 2.0em;
+}
+#btnentrar{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    color: black;
+    font-weight: bold;
+    transition: 1.5s;
+}
+#btncadastrov{
+    width: 200px;
+    height: 50px;
+    background-color: #021352;
+    border: none;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    color: white;
+    font-weight: bold;
+    transition: 1.5s;
+}
+footer #btnentrar{
+    margin-left: 300px;
+}
+#grid-view{
+display: flex;
+flex-wrap: wrap;
+}
+.sect p{
+    font-size: 2.0em;
+}
+#link-weare{
+
+
+}
+.div-block{
+
+width: 100%;
+height: 200px;
+background-color: white;   
+color: black; 
+display: flex;
+justify-content: center;
+align-items: center;
+
+}

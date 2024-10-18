@@ -1,0 +1,108 @@
+*{
+    margin: 0 auto;
+}
+#topo{
+    background-color: #021352;
+    height: 60px;
+    width: 100%;
+    filter:drop-shadow(5px 5px);
+}
+.imgballon{
+    height: 691px;
+    width: 100%;
+    background-image: url(/Images/balao.jpg);
+
+}
+#meio{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#caixacentral{
+    height: 830px;
+    width: 775px;
+    margin-top: 5%;
+    background-color: #E9E8FF;
+    border-radius: 30px;
+    position: relative;
+    top: 10%;   
+   
+    
+}
+#CadastroCliente{
+    width: 411px;
+    height: 60px;
+    color: white;
+    background-color: #021352;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 10px;
+    margin-top: 10%;
+    font-size: 30px;
+    position: absolute; left: 50%; transform: translate(-50%, -50%);
+}
+form{
+    margin-top: 20%;
+    width: 87%;
+    margin-left: 5%;
+    
+}
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .input {
+    display: flex;
+    width: 40%;
+    margin-bottom: 5rem;
+    background-color: #E9E8FF;
+   
+    
+  }
+
+  .form-label {
+    width: 50%;
+    margin-bottom: 0.5rem;
+  }
+  #btnconfig{
+    position: absolute; left: 49%; transform: translate(30%, -10%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 1rem auto;
+    background-color: #021352;
+    width: 250px;
+    height: 80px;
+
+  }
+  header h1 a{
+text-decoration: none;
+color: white;
+  }
+  header h1 a:hover{
+        color: #f6629d;
+      }
+      header ul li{
+        text-decoration: none;
+      }
+      .btn.btn-primary{
+        width: 250px;
+        height: 80px;
+        padding-top: 25px;
+        margin-top: 10px;
+        margin-left: 30px;
+        background-color: #021352;
+    
+
+      }
+      .form-label{
+        margin-right:
+          10px;
+        
+      }
+    .atualiza{
+      margin-top: 15%;
+    }
